@@ -1,0 +1,81 @@
+/*
+    Week 4 Homework Styles 
+    Created by Christopher Wojcik
+*/
+h1 {
+    margin: 20px 50px;
+}
+form {
+    clear: both;
+    width: 430px;
+}
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+form ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form ol li {
+    padding: 20px 5px 5px 5px;
+    margin: 10px 0;
+    position: relative;
+}
+form li label, form li legend {
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+#page1 {
+    margin-left: 50px;
+}
+li.error {
+    border: 1px solid red;
+    background: pink;
+}
+.error p {
+    color: red;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 165px;
+    top: 20px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+td,th {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+td.number {
+    text-align: right;
+}
+#info, #cart {
+    float: left;
+    padding: 20px 50px;
+}
+#confirmed {
+    margin: 0 50px 20px 50px;
+}
+
+#info {
+    border-left: 1px solid black;
+}
+#page3form {
+    margin: 20px 0;
+}
+#submitbutton {
+    padding-top: 5px;
+}
+#page3form #submitbutton {
+    padding: 5px 0;
+}
